@@ -10,7 +10,7 @@ class ImageCard extends React.Component{
         console.log(this.abc12.current.clientHeight)
         const span1=Math.ceil(this.abc12.current.clientHeight/10)
         this.setState({span:{span1}})
-        console.log('hrd1',this.state.span)
+        console.log('hrd1rishabhchandok',this.state.span)
     }
     componentDidMount(){
         this.abc12.current.addEventListener('load',this.avc)
