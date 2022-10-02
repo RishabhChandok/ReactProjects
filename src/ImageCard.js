@@ -7,7 +7,7 @@ class ImageCard extends React.Component{
         this.state={span:0}
     }
     avc=()=>{
-        console.log(this.abc12.current.clientHeight,'rishabhshshshshsh')
+        console.log(this.abc12.current.clientHeight)
         const span1=Math.ceil(this.abc12.current.clientHeight/10)
         this.setState({span:{span1}})
         console.log('hrd1rishabhchandok',this.state.span)
