@@ -5,6 +5,7 @@ class ImageCard extends React.Component{
         super(props)
         this.abc12=React.createRef()
         this.state={span:0}
+        console.log('constructor')
     }
     avc=()=>{
         console.log(this.abc12.current.clientHeight,'rishabh test branch');
